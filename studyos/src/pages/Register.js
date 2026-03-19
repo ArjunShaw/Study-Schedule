@@ -12,7 +12,7 @@ export default function Register() {
   const handleRegister = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://study-os-backend.onrender.com/api/auth/login",
         { username, email, password }
       );
 
